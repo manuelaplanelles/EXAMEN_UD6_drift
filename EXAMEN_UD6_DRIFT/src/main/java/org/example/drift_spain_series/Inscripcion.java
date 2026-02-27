@@ -6,6 +6,7 @@ public class Inscripcion {
     private boolean pagado;
 
     public Inscripcion(Piloto piloto, CategoriaDrift categoria,boolean pagado  ){
+        super();
         this.piloto=piloto;
         this.categoria=categoria;
         this.pagado=pagado;

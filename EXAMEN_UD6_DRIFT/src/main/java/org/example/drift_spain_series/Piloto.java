@@ -6,11 +6,11 @@ public class Piloto extends Participante {
     private int puntuacion;
 
 
-    public Piloto(String nombre, String pais) {
-        super(nombre, pais);
+    public Piloto(String nombre, String pais, String Marca) {
+        super();
         this.marca=marca;
-        this.estado=estado;
-        this.puntuacion=puntuacion;
+        this.estado=EstadoCoche.PENDIENTE;
+        this.puntuacion=0;
     }
     public Inscripcion inscripcion(){
 
