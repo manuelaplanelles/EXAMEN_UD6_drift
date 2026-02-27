@@ -9,9 +9,9 @@ public class DriftSpainSeriesApp {
     public static void main(String[] args) {
         System.out.println("=== BIENVENIDO A LA APP DEL DRIFT SPAIN SERIES DE VALENCIA ===");
         //a) Crea 3 pilotos para Skoda,Mercedes y Toyota
-        Piloto p1 = new Piloto("Carlos", "España", "SKODA");
-        Piloto p2 = new Piloto("Miguel", "España", "MERCEDES");
-        Piloto p3 = new Piloto("Luis", "España", "TOYOTA");
+        Piloto p1 = new Piloto( "SKODA");
+        Piloto p2 = new Piloto("MERCEDES");
+        Piloto p3 = new Piloto("TOYOTA");
 
         //b) Todos los pilotos se inscriben en la categoria PRO inscibirse y gusrdar sus inscripciones en la lisa de pilotosInscritois
         Inscripcion ins1 = p1.inscripcion();

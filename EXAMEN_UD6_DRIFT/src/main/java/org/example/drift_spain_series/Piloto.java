@@ -6,7 +6,7 @@ public class Piloto extends Participante {
     private int puntuacion;
 
 
-    public Piloto(String nombre, String pais, String Marca) {
+    public Piloto(String Marca) {
         super();
         this.marca=marca;
         this.estado=EstadoCoche.PENDIENTE;
@@ -14,6 +14,7 @@ public class Piloto extends Participante {
     }
     public Inscripcion inscripcion(){
 
+        return null; //sugeido por la bombilla
     }
     public void pagarInscripcion(Inscripcion inscripcion){
 
